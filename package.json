@@ -1,0 +1,38 @@
+{
+  "name": "bdd-appium-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [
+    "WebDriverIO",
+    "Cucumber",
+    "Appium",
+    "Javascript"
+  ],
+  "author": "COSM",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "@wdio/appium-service": "^8.3.5",
+    "@wdio/cli": "^8.3.5",
+    "@wdio/cucumber-framework": "^8.3.0",
+    "@wdio/local-runner": "^8.3.5",
+    "@wdio/mocha-framework": "^8.3.0",
+    "@wdio/spec-reporter": "^8.3.0",
+    "appium": "^2.0.0-beta.55",
+    "appium-uiautomator2-driver": "^2.12.3",
+    "chromedriver": "^110.0.0",
+    "wdio-chromedriver-service": "^8.0.1",
+    "webdriverio": "^8.3.5"
+  },
+  "dependencies": {
+    "chai-webdriverio": "^1.0.0"
+  }
+}

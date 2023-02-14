@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "types": [
+      "node",
+      "@wdio/globals/types",
+      "@wdio/cucumber-framework"
+    ],
+    "module": "commonjs"
+  },
+  "exclude": ["node_modules"]
+}
