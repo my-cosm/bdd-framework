@@ -7,7 +7,7 @@ class tabNavigation {
     }
 
     async clickDiscoverIcon() {
-        const profileBtn = await $('~');
+        const profileBtn = await $('~tab-bar-events-item');
         await profileBtn.waitForDisplayed();
         await profileBtn.click();
     }

@@ -66,7 +66,7 @@ exports.config = {
     cucumberOpts: {
         requireModule: [],
         // require: ['./tests/step-definitions/login.step.js'],
-        require: ['./tests/step-definitions/orderticket.step.js'],
+        require: ['./tests/step-definitions/ticketsflow.step.js'],
         backtrace: false,
         requireModule: [],
         // <boolean> invoke formatters without executing steps
@@ -90,9 +90,9 @@ exports.config = {
         command: 'appium'
     },
 
-    afterScenario: function (world, result, context) { // browser.closeApp()
-        driver.resetApp();
-    }
+    // afterScenario: function (world, result, context) { // browser.closeApp()
+    //     driver.resetApp();
+    // }
 
 
 };
