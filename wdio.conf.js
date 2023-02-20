@@ -5,13 +5,15 @@ exports.config = {
     path: '/wd/hubsession',
 
     // specs: ['./tests/features/login.feature'],
-    specs: ['./tests/features/ticketsflow.feature'],
+    // specs: ['./tests/features/ticketsflow.feature'],
+    specs: ['./tests/features/signup.feature'],
+
     exclude: [
         // 'path/to/excluded/files'
     ],
 
     maxInstances: 10,
-
+    // //For real device
     capabilities: [
         {
             platformName: 'Android',
@@ -25,7 +27,7 @@ exports.config = {
         }
     ],
 
-
+    // //For Emulator
     // capabilities: [
     //     {
     //         platformName: 'Android',
@@ -66,7 +68,8 @@ exports.config = {
     cucumberOpts: {
         requireModule: [],
         // require: ['./tests/step-definitions/login.step.js'],
-        require: ['./tests/step-definitions/ticketsflow.step.js'],
+        // require: ['./tests/step-definitions/ticketsflow.step.js'],
+        require: ['./tests/step-definitions/signup.step.js'],
         backtrace: false,
         requireModule: [],
         // <boolean> invoke formatters without executing steps
